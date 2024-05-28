@@ -49,3 +49,25 @@ body, html {
     width: 400px; /* Adjust size as needed */
     height: auto;
 }
+
+/* Media Queries for Mobile Compatibility */
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column; /* Stack the links vertically on smaller screens */
+        top: 10px; /* Adjust top distance for smaller screens */
+        gap: 10px;
+    }
+
+    .nav-link {
+        font-size: 18px; /* Slightly smaller text for mobile */
+    }
+
+    .content {
+        margin-top: 100px; /* More space to accommodate the stacked nav links */
+        padding: 10px;
+    }
+
+    .bottom-image {
+        width: 80px; /* Smaller image for mobile */
+    }
+}
