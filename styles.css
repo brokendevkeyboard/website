@@ -68,6 +68,6 @@ body, html {
     }
 
     .bottom-image {
-        width: 80px; /* Smaller image for mobile */
+        width: 40px; /* Smaller image for mobile */
     }
 }
