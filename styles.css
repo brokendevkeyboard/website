@@ -5,7 +5,7 @@ body, html {
     height: 100%;
     background-color: black;
     color: white;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
 }
 
 .container {
@@ -14,6 +14,7 @@ body, html {
     height: 100%;
     justify-content: center;
     align-items: center;
+    text-align: center; /* Ensures the content is centered on smaller screens */
 }
 
 .nav-container {
@@ -35,18 +36,16 @@ body, html {
 }
 
 .content {
-    text-align: center;
-    margin-top: 20px; /* Adjust this value if needed to move content down */
+    margin-top: 60px; /* Adjust this value if needed to move content down */
     padding: 20px;
 }
 
-
 .bottom-image {
     position: absolute;
-    bottom: 0px; /* Distance from the bottom of the page */
+    bottom: 20px; /* Distance from the bottom of the page */
     left: 50%;
     transform: translateX(-50%);
-    width: 400px; /* Adjust size as needed */
+    width: 100px; /* Adjust size as needed */
     height: auto;
 }
 
@@ -63,11 +62,12 @@ body, html {
     }
 
     .content {
-        margin-top: 100px; /* More space to accommodate the stacked nav links */
+        margin-top: 120px; /* More space to accommodate the stacked nav links */
         padding: 10px;
     }
 
     .bottom-image {
-        width: 40px; /* Smaller image for mobile */
+        width: 80px; /* Smaller image for mobile */
+        bottom: 10px; /* Adjust bottom distance for mobile */
     }
 }
